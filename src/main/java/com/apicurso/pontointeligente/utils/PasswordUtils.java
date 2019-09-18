@@ -12,7 +12,7 @@ public class PasswordUtils {
 		
 	}
 	
-	public static String gerarBCripty(String senha) {
+	public static String gerarBCrypt(String senha) {
 		if(senha == null) {
 			return senha;
 		}
